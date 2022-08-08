@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
+.section-container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.card-container {
+  display: flex;
+}
+.card-box1 {
+  background-color: rgb(255, 255, 255);
+}
+.box2 {
+  margin-top: 30px;
+  color: #fff;
+}
+.box3 {
+  margin-top: 30px;
+}
+.card-container .card-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  box-shadow: 0 0px 20px rgba(42, 40, 40, 0.5);
+  border-radius: 7px;
+  margin-right: 30px;
+}
+.box2-conatiner {
+  box-shadow: 0 0px 20px rgba(42, 40, 40, 0.5);
+  border-radius: 7px;
+  padding: 10px;
+  margin-right: 30px;
+}
+.card-container .card-box-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.box2-conatiner .title-text {
+  padding: 5px 10px 0px;
+}
+.card-container .card-box-2 .card-left {
+  /* padding: 10px; */
+  margin-right: 80px;
+}
+.card-container .card-box-2 .card-right {
+  padding: 5px;
+}
+.card-container .card-box .card-left {
+  padding: 10px;
+  margin-right: 20px;
+}
+.card-container .card-box .card-right {
+  padding: 5px;
+}
+.title-text {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+.cost-text {
+  font-size: 30px;
+  color: #111;
+}
+
+.card-rigth-icon {
+  background-color: rgb(0, 64, 255);
+  padding: 15px 17px;
+  border-radius: 5px;
+}
+.card-rigth-icon i {
+  font-size: 22px;
+  color: #fff;
+}
+/* box2 styles */
+.card-box2-blue {
+  background: #1f4037;
+  background: -webkit-linear-gradient(to right, #3a9acb, #101a9a);
+  background: linear-gradient(to right, #3a9acb, #101a9a);
+}
+.card-box2-pink {
+  background: #1f4037;
+  background: -webkit-linear-gradient(to right, #cb3a67, #ab8515);
+  background: linear-gradient(to right, #cb3a67, #ab8515);
+  background: linear-gradient(to right, #d8336b, #eabe3a);
+}
+.card-box2-green {
+  background: #1f4037;
+  background: -webkit-linear-gradient(to right, #269f2b, #06b1a1);
+  background: linear-gradient(to right, #269f2b, #06b1a1);
+}
+.card-box2-violet {
+  background-color: #1f4037;
+  background: -webkit-linear-gradient(to right, #5d0dc4, #15ccbd);
+  background: linear-gradient(to right, #5d0dc4, #15ccbd);
+}
+.fa-euro-sign {
+  font-size: 25px;
+}
+.box2 h2 {
+  font-size: 20px;
+}
+/* Box4 styles */
+.box4 {
+  color: rgb(74, 73, 73);
+}
+.box4-conatiner {
+  background-color: #fff;
+  border-left: 5px solid rgb(255, 0, 132);
+}
+.orange-text {
+  color: rgb(255, 0, 132);
+}
+.green-left-line {
+  border-left: 5px solid rgb(20, 105, 9);
+}
+.green-text {
+  color: rgb(21, 123, 7);
+}
+.pink-left-line {
+  border-left: 5px solid rgb(152, 5, 159);
+}
+.pink-text {
+  color: rgb(152, 5, 159);
+}
+.blue-left-line {
+  border-left: 5px solid rgb(23, 174, 244);
+}
+.blue-text {
+  color: rgb(14, 133, 188);
+}
+/* box5 style */
+.box5 {
+  margin-top: 30px;
+}
+.card-box5 {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+}
+.card-box5-right-box {
+  right: -20px;
+  top: -10px;
+  position: absolute;
+}
+.card-box5-blue {
+  background: #1f4037;
+  background: -webkit-linear-gradient(to right, #3a9acb, #101a9a);
+  background: linear-gradient(to right, #3a9acb, #101a9a);
+}
+.card-box5 .card-rigth-icon {
+  /* background-color: rgb(0, 255, 13); */
+  padding: 15px 17px;
+  border-radius: 50%;
+}
+.card-box5 .card-rigth-icon i {
+  font-size: 22px;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .card-container {
+    flex-direction: column;
+  }
+  .card-container .card-box {
+    margin-top: 20px;
+  }
+  .box2-conatiner {
+    margin-top: 20px;
+  }
+  .card-box5 {
+    width: inherit;
+  }
+}
